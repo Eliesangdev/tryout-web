@@ -1,0 +1,154 @@
+ /* google font */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+ a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+} 
+ .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(195, 214, 22);  
+
+ }
+ .nav-links{
+    display: flex;
+    align-items: center;
+}
+ .nav-links li{
+    margin: 0 30px;
+}
+ .nav-links li a{
+    color: rgb(221, 211, 12);
+}  
+ .logo{
+    padding: 10;
+    color: rgb(213, 213, 47);
+    font-size: 22px;
+
+} 
+ header{
+    width:100vw ;
+    height: 100vh;
+    background-image: url(./img/image0.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.humburger{
+    display: none;
+} 
+.humburger{
+    position: absolute;
+    top: 0;
+    left: 90%;
+}
+ .header-content {
+    margin-bottom: 150px;
+    color: rgb(238, 203, 50);
+    text-align: center;
+
+}
+.header-content {
+    font-size: 4vmin;
+    color: rgb(224, 227, 28);
+} 
+.home{
+    background:#fc036b;
+    color: #fefefe;
+    padding: 8px 10px;
+    border-radius: 25px;
+}
+  
+ .line {
+    width: 150px;
+    height: 4px;
+    background-color:#fc036b;
+    margin: 10 auto;
+    border-radius: 5px
+ }
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding:8px 10px;
+    background-color:#fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    align-content: space-between;
+}  
+ @media screen and (max-width:860px){
+    .nav-links{
+        padding: 0 30px;
+    }
+    
+    }
+@media screen and (max-width:700px){
+        .nav-links{
+            padding: 0 20px;
+            font-size: 20px;
+        }
+        
+        }@media screen and (max-width:500px){
+            .nav-links{
+                padding: 0 11px;
+                font-size: 15px;
+            }
+            
+            }        
+@media screen and (max-width:480px){
+                .nav-links{
+                    padding: 0 8px;
+                    font-size: 11px;
+                }
+                
+                }        
+ @media screen and (max-width:400px){
+    .humburger{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar{
+        display: none;
+    }
+   
+    .humburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+
+    }
+
+    .navbar {
+        height: 450px;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background:rgb(13, 13, 105);
+        transition: 0.2s;
+    }
+    .navbar ul{
+        display: block;
+        width: fit-content;
+        margin: 50px;
+    }
+} 
+     

@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    border: 8px 10px;
+    background-image:url(img/image0.jpg);
+    display: flex;
+    background-position: bottom;
+    background-size: cover;
+    
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
